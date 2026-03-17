@@ -1,0 +1,130 @@
+
+{
+  "packages": [
+    {
+      "name": "AWB",
+      "maintainer": "apsis-solutions",
+      "websiteURL": "https://apsis-solutions.com/",
+      "email": "contact@apsis-solutions.com",
+      "help": {
+        "online": "https://apsis-solutions.com/"
+      },
+      "platforms": [
+        {
+          "name": "AWB",
+          "architecture": "AWB",
+          "version": "1.0.0",
+          "category": "AWB",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/SomeshSagabala/arduino-board-package/releases/download/v1.2/AWB-1.0.0.zip",
+          "archiveFileName": "AWB-1.0.0.zip",
+          "size": "18042406",
+          "checksum": "SHA-256:2bec9faf85377de64634afea8766ff04f758826815e6eb045d9d34ecf59a80d8",
+          "boards": [
+            {
+              "name": "AWB"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "AWB",
+              "name": "gcc-arm-none-eabi",
+              "version": "10.3-2021.10"
+            },
+            {
+              "packager": "AWB",
+              "name": "beken_packager",
+              "version": "2.0.0"
+            },
+            {
+              "packager": "AWB",
+              "name": "bk_loader",
+              "version": "2.1.10.0"
+            }
+          ]
+        },
+        {
+          "name": "AWB",
+          "architecture": "AWB",
+          "version": "1.0.1",
+          "category": "AWB",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/SomeshSagabala/arduino-board-package/releases/download/v1.2/AWB-1.0.1.zip",
+          "archiveFileName": "AWB-1.0.1.zip",
+          "size": "18477299",
+          "checksum": "SHA-256:b1810fb5d752cc1f3cba906b627c81981c83ee7274aebe0c8c11d97c4af739be",
+          "boards": [
+            {
+              "name": "AWB"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "AWB",
+              "name": "gcc-arm-none-eabi",
+              "version": "10.3-2021.10"
+            },
+            {
+              "packager": "AWB",
+              "name": "beken_packager",
+              "version": "2.0.0"
+            },
+            {
+              "packager": "AWB",
+              "name": "bk_loader",
+              "version": "2.1.10.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "gcc-arm-none-eabi",
+          "version": "10.3-2021.10",
+          "systems": [
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/SomeshSagabala/arduino-board-package/releases/download/v1.2/gcc-arm-none-eabi-10.3-2021.10.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-10.3-2021.10.tar.bz2",
+              "size": "171482980",
+              "checksum": "SHA-256:22ba87c7d483b8d34c49b1456248142875fafd82c21922b37e906594447f749d"
+            },
+            {
+              "host": "x86_64-cygwin",
+              "url": "https://github.com/SomeshSagabala/arduino-board-package/releases/download/v1.2/gcc-arm-none-eabi-10.3-2021.10-win32.zip",
+              "archiveFileName": "gcc-arm-none-eabi-10.3-2021.10-win32.zip",
+              "size": "197366987",
+              "checksum": "SHA-256:23eb2d117c2bc5f8f59556b3342f0f4599a4e0cfef189bb39907bca76d8c06c9"
+            }
+          ]
+        },
+        {
+          "name": "beken_packager",
+          "version": "2.0.0",
+          "systems": [
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/SomeshSagabala/arduino-board-package/releases/download/v1.2/beken_packager-2.0.0-win32.zip",
+              "archiveFileName": "beken_packager-2.0.0-win32.zip",
+              "size": "12422668",
+              "checksum": "SHA-256:dde715f1777a515b8dbf4aafae5071895d117e96cfb758745b1af73db1a7f1f4"
+            },
+            {
+              "host": "x86_64-cygwin",
+              "url": "https://github.com/SomeshSagabala/arduino-board-package/releases/download/v1.2/beken_packager-2.0.0-win32.zip",
+              "archiveFileName": "beken_packager-2.0.0-win32.zip",
+              "size": "12422668",
+              "checksum": "SHA-256:dde715f1777a515b8dbf4aafae5071895d117e96cfb758745b1af73db1a7f1f4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
