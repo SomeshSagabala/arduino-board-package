@@ -45,35 +45,32 @@
           ]
         },
         {
-          "name": "AWB Board",
-          "architecture": "awb",
+          "name": "AWB",
+          "architecture": "AWB",
           "version": "1.0.1",
           "category": "AWB",
-          "help": {
-            "online": ""
-          },
           "url": "https://raw.githubusercontent.com/SomeshSagabala/arduino-board-package/main/files/AWB-1.0.1.zip",
           "archiveFileName": "AWB-1.0.1.zip",
           "size": "18477299",
           "checksum": "SHA-256:0aad04f581f5a2d592111d3495d997190d0db588e701c803342ae2826a84f894",
           "boards": [
             {
-              "name": "AWB Board"
+              "name": "AWB"
             }
           ],
           "toolsDependencies": [
             {
-              "packager": "awb",
+              "packager": "AWB",
               "name": "gcc-arm-none-eabi",
               "version": "10.3-2021.10"
             },
             {
-              "packager": "awb",
+              "packager": "AWB",
               "name": "beken_packager",
               "version": "2.0.0"
             },
             {
-              "packager": "awb",
+              "packager": "AWB",
               "name": "bk_loader",
               "version": "2.1.10.0"
             }
