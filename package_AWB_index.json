@@ -21,7 +21,7 @@
           "url": "https://github.com/SomeshSagabala/arduino-board-package/releases/download/v1.2/AWB-1.0.0.zip?raw=true",
           "archiveFileName": "AWB-1.0.0.zip",
           "size": "18042406",
-          "checksum": "SHA-256:5d73184afb15bcc6fba6ed497c62b29fa8cead1ec3288ad39f41962534a73e4e",
+          "checksum": "SHA-256:30bd64770c39b31b33e78a4bc99a4ccb832805c013142c4bd4e43a7aaba69f49",
           "boards": [
             {
               "name": "AWB Board"
