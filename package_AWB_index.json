@@ -1,4 +1,6 @@
 
+
+
 {
   "packages": [
     {
@@ -11,7 +13,7 @@
       },
       "platforms": [
         {
-          "name": "AWB Board",
+          "name": "AWB Boards",
           "architecture": "awb",
           "version": "1.0.0",
           "category": "AWB",
@@ -24,7 +26,7 @@
           "checksum": "SHA-256:9ddaec97fdba28565eea6f08b712f6861ea3ce491006fbe9c29fc7f68c6d6339",
           "boards": [
             {
-              "name": "AWB Board"
+              "name": "AWB Dev Module"
             }
           ],
           "toolsDependencies": [
@@ -46,32 +48,35 @@
           ]
         },
         {
-          "name": "AWB",
-          "architecture": "AWB",
+          "name": "AWB Boards",
+          "architecture": "awb",
           "version": "1.0.1",
           "category": "AWB",
+          "help": {
+            "online": ""
+          },
           "url": "https://github.com/SomeshSagabala/arduino-board-package/releases/download/v1.2/AWB-1.0.1.zip?raw=true",
           "archiveFileName": "AWB-1.0.1.zip",
-          "size": "18477299",
+          "size": "36519807",
           "checksum": "SHA-256:0aad04f581f5a2d592111d3495d997190d0db588e701c803342ae2826a84f894",
           "boards": [
             {
-              "name": "AWB"
+              "name": "AWB Dev Module"
             }
           ],
           "toolsDependencies": [
             {
-              "packager": "AWB",
+              "packager": "awb",
               "name": "gcc-arm-none-eabi",
               "version": "10.3-2021.10"
             },
             {
-              "packager": "AWB",
+              "packager": "awb",
               "name": "beken_packager",
               "version": "2.0.0"
             },
             {
-              "packager": "AWB",
+              "packager": "awb",
               "name": "bk_loader",
               "version": "2.1.10.0"
             }
@@ -83,13 +88,6 @@
           "name": "gcc-arm-none-eabi",
           "version": "10.3-2021.10",
           "systems": [
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/SomeshSagabala/arduino-board-package/releases/download/v1.2/gcc-arm-none-eabi-10.3-2021.10.tar.bz2?raw=true",
-              "archiveFileName": "gcc-arm-none-eabi-10.3-2021.10.tar.bz2",
-              "size": "171482980",
-              "checksum": "SHA-256:22ba87c7d483b8d34c49b1456248142875fafd82c21922b37e906594447f749d"
-            },
             {
               "host": "i686-mingw32",
               "url": "https://github.com/SomeshSagabala/arduino-board-package/releases/download/v1.2/gcc-arm-none-eabi-10.3-2021.10-win32.zip?raw=true",
